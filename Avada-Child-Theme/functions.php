@@ -39,7 +39,7 @@ if ( ! function_exists( 'mycustomHeader' ) ) {
 				<div class="fusion-row">
 					<div class="top-logo-area clearfix">
             <div class="fusion-column viterbi-logo col-lg-4 col-md-4 col-sm-4 col-xs-6">
-							<a href="http://viterbischool.usc.edu" target="_blank"><img id="viterbi-logo-img" src="/wp-content/themes/Avada-Child-Theme/assets/img/Informal_Viterbi_CardOnWhite.jpg"/></a>
+							<a href="http://viterbischool.usc.edu" target="_blank"><img id="viterbi-logo-img" src="/wp-content/themes/Avada-Child-Theme/assets/img/Formal_Viterbi_GoldOnBlack.png"/></a>
 						</div>
             <div class="fusion-column col-lg-4 col-sm-4">
 
