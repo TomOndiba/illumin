@@ -1,0 +1,603 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+@font-face {
+  font-family: Museo-300;
+  src: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/fonts/webfontkit/Museo-300.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Museo-500;
+  src: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/fonts/webfontkit/Museo-500.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Museo-700;
+  src: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/fonts/webfontkit/Museo-700.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Reed dev!*/
+/*FACC18 old color*/
+
+/*fixing shitty featured image sizes for slider*/
+.volume-title h1{
+  color: #fff !important;
+}
+
+.gallery1 {
+  max-height: 500px !important;
+}
+
+.gallery1 .slide-excerpt {
+  width: 40% !important;
+}
+
+.gallery1 .slides h2 {
+  line-height: 1.3 !important;
+  font-size: 30px !important;
+}
+.gallery1 .slides li {
+  height: 100%;
+}
+
+.gallery1 .slides img {
+  object-fit: cover;
+  height: 100%;
+  max-height: 600px;
+}
+
+.issue-blurb-area {
+  max-height: 500px !important;
+  background-color: rgba(255,255,255,0.2);
+  border: 2px solid rgba(255,255,255,0.4);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.issue-blurb-area .fusion-text:first-child{
+  font-family: Roboto !important;
+  font-size: 32px !important;
+}
+
+.issue-blurb-area .fusion-text {
+  color: #fff !important;
+}
+
+.issue-blurb-modal {
+
+}
+
+.fusion-main-menu {
+    float:none;
+    display:block;
+    clear:both;
+    background: #e0b716;
+    width: 100%;
+}
+.fusion-main-menu ul {
+  margin-left: auto;
+}
+.fusion-main-menu li {
+  float: none;
+  display: inline-block;
+  margin-left: auto;
+}
+
+.fusion-main-menu:hover {
+    overflow:hidden !important;
+}
+.fusion-menu {
+    margin-bottom: 12px;
+}
+.fusion-header {
+    padding: 0;
+}
+
+.fusion-row {
+  margin:0;
+  max-width: none !important;
+}
+
+main {
+  margin-top: 40px;
+  padding: 0 7% !important;
+}
+main .fusion-row {
+  padding: 0 20px;
+}
+
+.fusion-page-title-bar {
+  display: none;
+}
+
+#sidebar .cat-item
+
+/*end Reed dev*/
+
+.text-right {
+	text-align:right;
+}
+/*
+.fusion-header {
+	background-image:url('http://vitinnovation.wpengine.com/wp-content/uploads/2016/07/headerline.gif');/* -webkit-gradient(linear,left top,left bottom,color-stop(.1, #660000),color-stop(.9, #ad4e4e));*/
+/*	background-image:url('http://vitinnovation.wpengine.com/wp-content/uploads/2016/07/headerline.gif'), -webkit-gradient(linear,left top,left bottom,color-stop(.1, #660000),color-stop(.9, #ad4e4e));
+	background-image:url('http://vitinnovation.wpengine.com/wp-content/uploads/2016/07/headerline.gif'), -moz-linear-gradient(center top,#990000 10%,#660000 90%);
+	background-image:url('http://vitinnovation.wpengine.com/wp-content/uploads/2016/07/headerline.gif'), -o-linear-gradient(center top,#990000 10%,#660000 90%);
+	background-repeat: no-repeat;
+}*/
+
+
+
+.fusion-header {
+    height: auto !important;
+}
+.top-logo-area a {
+  color:#fff;
+}
+.fusion-logo a {
+    line-height: 28px;
+}
+.fusion-main-menu > ul > li {
+    padding-right: 20px !important;
+    padding-left:20px;
+}
+.fusion-main-menu > ul > li > a {
+    height: 35px !important;
+}
+
+.fusion-main-menu > ul > li a:hover {
+    color:#40302F;
+}
+.content-box-column ul, .content-box-column ol {
+    padding-left:10px;
+}
+.content-box-column ul li, .content-box-column ol li {
+    text-align:left;
+}
+.colorwhite{
+    color:#fff;
+}
+#rev_slider_1_1_wrapper .ares .tp-bullet:hover, .ares .tp-bullet.selected {
+    background: #722424;
+}
+a.fusion-button.button-red, a.fusion-button.button-red:hover{
+	background-color: #8c0000;
+	background-image: none;
+	color: #fff;
+	border: none !important;
+	border-radius: 5px !important;
+}
+a.fusion-button.button-red:hover{
+	color: #e2b900;
+}
+a.fusion-button.button-red small{
+    color: #999;
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 5px;
+}
+.fusion-footer-widget-area {
+    border-top: 0px solid #e9eaee !important;
+}
+.customLogo{
+    color: #fff;
+    font-size: 21px;
+    max-width: 34%;
+    margin-top: 20px !important;
+    margin-bottom:6px !important;
+    text-align: center;
+}
+.customLogo a,.customLogo a:hover{
+    color: #fff;
+}
+.fusion-main-menu .sub-menu{
+    border:none;
+}
+.fusion-is-sticky .customLogo {
+    font-size: 21px;
+    line-height: 23px;
+	margin-bottom: 6px !important;
+}
+.module1{
+    max-width:65%;
+    margin:0px auto;
+}
+.ptpb0{
+    padding-top:0;
+    padding-bottom:0;
+}
+.module1 .fusion-flip-box .flip-box-inner-wrapper,.module1 .fusion-flip-boxes {
+    margin-bottom: 0;
+}
+.person-author-wrapper span.person-name, .person-author-wrapper span.person-title
+{
+	color:#990000;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.top-logo-area {
+	padding-top:10px;
+  padding-bottom: 5px;
+}
+.top-logo-area img {
+	max-height:80px;
+	width:auto;
+}
+.fusion-is-sticky .top-logo-area img {
+	max-height:38px;
+	width:auto;
+}
+.fusion-header {
+  height: 160px !important;
+}
+.fusion-is-sticky {
+    height: 142px !important;
+}
+
+.fusion-mobile-menu-icons {
+  top: auto;
+  bottom: 0;
+  position: absolute;
+}
+
+.illumin-logo {
+  text-align: center;
+  display: none;
+}
+
+/*All!*/
+/*Header*/
+#illumin-logo-small {
+  height: 32px;
+  float: left;
+  position: absolute;
+  top: 0px;
+  z-index: 250;
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+#illumin-logo-small.shrink {
+  opacity: 1;
+}
+
+.viterbi-logo {
+  z-index: 300;
+}
+
+#viterbi-logo-img {
+  height: 60px;
+  width: auto;
+}
+
+#usc-logo {
+  height: 45px;
+  width: auto;
+}
+
+#header-search {
+  top: 160px;
+  padding-right: 0;
+  margin-left: 10%;
+  z-index: 250;
+  position: absolute;
+  width: 15%;
+  transition: all 0.3s ease;
+}
+
+#header-search.shrink {
+  top: 0px;
+}
+
+/*Single page*/
+
+article .slides {
+  max-height: 200px;
+  width: auto !important;
+  max-width: 500px !important;
+  object-fit: contain !important;
+
+  margin-left: 50% !important;
+  transform: translateX(-50%);
+
+}
+
+article p {
+  margin-bottom: 15px !important;
+  line-height: 24px;
+}
+
+.article-abstract {
+  font-style: italic;
+}
+.entry-title {
+  text-align: center;
+  padding: 0 20px;
+  font-weight: bold !important;
+}
+
+.fusion-meta-info-wrapper {
+  font-size: 15px;
+}
+
+#sidebar {
+  background-color: #777777 !important;
+  border-radius: 5px;
+}
+
+#sidebar {
+  width: 30%;
+}
+
+#sidebar .cat-item {
+  margin: 0;
+  background-color: #900 !important;
+  font-family: 'Roboto', 'Verdana', 'Geneva', sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-left: 10px;
+  border: 0;
+}
+#sidebar a {
+  color: #fff;
+  font-size: 20px !important;
+}
+
+#sidebar a::before {
+  padding-left: 5px;
+}
+#sidebar h4 {
+  text-align: center;
+  margin: 15px;
+  font-weight: normal;
+  font-size: 20px !important;
+  font-family: 'Museo-500', 'Roboto', 'Verdana', sans-serif;
+  color: #fff;
+}
+
+.post-content .p {
+  margin-bottom: 15px;
+}
+
+.top-logo-area .pull-right a {
+  float: right;
+}
+.about-author {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*About page*/
+.past-editors li{
+  display: inline;
+}
+.past-editors li::after {
+  content: " |";
+}
+
+/*Main page*/
+.excerpt-container h2 {
+  font-size: 1em !important;
+}
+
+.fusion-header {
+  background-image: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/img/banner_1920_220.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #600500 !important;
+}
+
+/*Category page*/
+.article-categories {
+  padding-left: 0 !important;
+}
+
+
+.article-categories > li {
+  list-style: none;
+  background-color: #600500;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  margin: 15px 0;
+
+}
+/* 'Engineering Categories', 'Genre Categories' */
+.article-categories > li > a{
+  color: #FFF;
+  font-family: 'Museo-500', 'Roboto', 'Verdana', sans-serif;
+  font-size: 24px;
+  padding-right: auto;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.article-categories ul {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.article-categories ul li a {
+  font-size: 18px !important;
+  color: #ef5d5d !important;
+}
+
+.article-categories ul li a:hover {
+  color: #fff !important;
+}
+
+.category-text {
+  width: 100%;
+}
+
+.down_arrow {
+  float: right;
+  max-height: 43px;
+}
+
+.headshot {
+  max-height: 250px;
+  width: auto;
+}
+
+/*phones*/
+@media (max-width: 768px) {
+  /*Header*/
+	.fusion-logo a {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+  .illumin-logo {
+    float: left;
+  }
+  /*Single page*/
+}
+
+/*tablets*/
+@media screen and (min-width: 768px) {
+  .top-logo-area img{
+    max-height: 50px;
+  }
+  .article-categories ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    column-count: 2;
+    column-gap: 10px;
+  }
+
+  /*Header*/
+
+  .fusion-menu {
+
+      text-align:center
+  }
+  .fusion-menu li {
+      display:inline-block;
+      float:none;
+      margin-left: 0;
+  }
+  .fusion-menu li li {
+      display:block;
+      text-align:left
+  }
+  .fusion-main-menu > ul > li > a{
+      font-family: 'Museo-500' !important;
+      font-size: 20px !important;
+  }
+  .fusion-menu a {
+    text-transform: uppercase;
+  }
+  .fusion-is-sticky .fusion-main-menu > ul {
+    margin-top:0 !important;
+  }
+
+  .fusion-main-menu {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    position: absolute;
+  }
+  .fusion-row {
+    height: inherit !important;
+  }
+
+  .fusion-header {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    position: relative;
+    top: 0;
+  }
+
+  .fusion-header-sticky-height {
+    top: 0;
+    height: 0;
+  }
+  .fusion-header.shrink {
+    height: 0px !important;
+  }
+  .fusion-header.shrink .top-logo-area {
+    display: none;
+  }
+  .fusion
+
+  .fusion-header.shrink .fusion-main-menu {
+    margin: 0;
+  }
+
+  /*Single page*/
+}
+
+@media (min-width: 992px) {
+  .top-logo-area img{
+    max-height: 75px;
+  }
+  .slides h2 {
+    font-size: 1.2em !important;
+  }
+
+  .article-categories ul {
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    column-count: 3;
+    column-gap: 10px;
+  }
+
+  .excerpt-container h2 {
+    font-size: 1.7em !important;
+  }
+  /*Header*/
+
+  .fusion-main-menu {
+    top: 160px;
+  }
+  .fusion-header.shrink .fusion-main-menu {
+    top: 0;
+  }
+
+  .illumin-logo {
+    margin: 0;
+  }
+  .customLogo {
+     max-width: 75%;
+  }
+  .customLogo br {
+      display: none;
+  }
+  .module1{
+      max-width:95%;
+      margin:0px auto;
+      padding:0 !important;
+      background:none !important;
+  }
+  /*Single page*/
+}
+@media screen and (min-width: 1120px) {
+  .fusion-header {
+    background-image: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/img/banner_1920_220.png');
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .fusion-header {
+    background-image: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/img/banner_2560_220.png');
+  }
+}
