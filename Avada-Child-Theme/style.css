@@ -263,9 +263,9 @@ a.fusion-button.button-red small {
   float: left;
   position: absolute;
   top: 0px;
+  left: 10px;
   z-index: 250;
   opacity: 0;
-  transition: all 1.5s ease;
 }
 
 #illumin-logo-small.shrink {

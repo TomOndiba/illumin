@@ -50,7 +50,6 @@ if ( ! function_exists( 'mycustomHeader' ) ) {
             </div>
 
 					</div>
-          <img id="illumin-logo-small" src="https://viterbiillumin.wpengine.com/wp-content/themes/Avada-Child-Theme/assets/img/illumin_black.png"/>
           <form id="header-search" role="search" class="searchform col-md-3 col-xs-6 col-md-push-9" method="get" action="<?php echo esc_url_raw( home_url( '/' ) ); ?>">
             <div class="search-table">
               <div class="search-field">

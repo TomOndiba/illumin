@@ -186,6 +186,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				});
 
 				// functions to run on window load
+				
 				$(window).on("load", function() {
 					// fix height of gallery slides
 					$(".main-gallery .slides").each(function() {
@@ -196,6 +197,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 						});
 					});
 
+					// append small black illumin logo
+					const logoHTML = `<img id="illumin-logo-small" src="https://viterbiillumin.wpengine.com/wp-content/themes/Avada-Child-Theme/assets/img/illumin_black.png"/>`;
+					console.log($('#menu-main'));
+					$('#menu-main').prepend(logoHTML);
 				});
 			});
 		</script>
