@@ -62,90 +62,7 @@ if ( is_search() && Avada()->settings->get( 'search_results_per_page' ) ) {
 }
 ?>
 
-<ul class="article-categories">
-	<li>
-		<a data-toggle="collapse" href="#collapse1">
-			<span class="category-text">Engineering Categories</span>
-			<img class="down_arrow" src="https://viterbiillumin.wpengine.com/wp-content/themes/Avada-Child-Theme/assets/img/down_arrow.png"/>
-		</a>
-		<ul id="collapse1" class="engineering-categories collapse">
-			<?php
-				$categories = get_categories( array(
-				  'orderby' => 'name',
-				  'order'   => 'ASC',
-					)
-				);
 
-				foreach ($categories as $cat) {
-					if ($cat->parent) continue;
-
-					$name = $cat->name;
-					$id = $cat->term_id;
-					$link = esc_url(get_category_link( $id));
-
-					if (strpos($cat->name, 'Volume') !== false) continue;
-					if (strpos($cat->name, 'Engineering') !== false) {
-						echo '<li class="cat-item cat-'.$id.'"><a href="'.$link.'"/>'.$name.'</a></li>';
-					};
-				}
-			?>
-		</ul>
-	</li>
-	<li >
-		<a data-toggle="collapse" href="#collapse2">
-			<span class="category-text">Genre Categories</span>
-			<img class="down_arrow" src="https://viterbiillumin.wpengine.com/wp-content/themes/Avada-Child-Theme/assets/img/down_arrow.png"/>
-		</a>
-		<ul id="collapse2" class="genre-categories collapse">
-			<?php
-				$categories = get_categories( array(
-				  'orderby' => 'name',
-				  'order'   => 'ASC',
-					)
-				);
-
-				foreach ($categories as $cat) {
-					if ($cat->parent) continue;
-
-					$name = $cat->name;
-					$id = $cat->term_id;
-					$link = esc_url(get_category_link( $id));
-
-					if (strpos($cat->name, 'Volume') !== false) continue;
-					if (strpos($cat->name, 'Engineering') !== false) continue;
-					echo '<li class="cat-item cat-'.$id.'"><a href="'.$link.'"/>'.$name.'</a></li>';
-				}
-			?>
-		</ul>
-	</li>
-	<li >
-		<a data-toggle="collapse" href="#collapse3">
-			<span class="category-text">Previous Volumes</span>
-			<img class="down_arrow" src="https://viterbiillumin.wpengine.com/wp-content/themes/Avada-Child-Theme/assets/img/down_arrow.png"/>
-		</a>
-		<ul id="collapse3" class="volume-categories collapse">
-			<?php
-				$categories = get_categories( array(
-				  'orderby' => 'name',
-				  'order'   => 'DESC',
-					'hierarchical' => '1',
-					)
-				);
-
-				foreach ($categories as $cat) {
-					// if ($cat->parent) continue;
-
-					$name = $cat->name;
-					$id = $cat->term_id;
-					$link = esc_url(get_category_link( $id));
-
-					if (strpos($name, 'Volume') === false) continue;
-					echo '<li class="cat-item cat-'.$id.'"><a href="'.$link.'"/>'.$name.'</a></li>';
-				}
-			?>
-		</ul>
-	</li>
-</ul>
 
 
 
@@ -462,9 +379,96 @@ if ( is_search() && Avada()->settings->get( 'search_results_per_page' ) ) {
 	<?php if ( 'timeline' === $blog_layout ) : ?>
 	</div>
 	<?php endif; ?>
+	
 <?php // Get the pagination. ?>
 <?php fusion_pagination( '', 2 ); ?>
 </div>
+
+<ul class="article-categories">
+	<li>
+		<a data-toggle="collapse" href="#collapse1">
+			<span class="category-text">Engineering Categories</span>
+			<img class="down_arrow" src="https://viterbiillumin.wpengine.com/wp-content/themes/Avada-Child-Theme/assets/img/down_arrow.png"/>
+		</a>
+		<ul id="collapse1" class="engineering-categories collapse">
+			<?php
+				$categories = get_categories( array(
+					'orderby' => 'name',
+					'order'   => 'ASC',
+					)
+				);
+
+				foreach ($categories as $cat) {
+					if ($cat->parent) continue;
+
+					$name = $cat->name;
+					$id = $cat->term_id;
+					$link = esc_url(get_category_link( $id));
+
+					if (strpos($cat->name, 'Volume') !== false) continue;
+					if (strpos($cat->name, 'Engineering') !== false) {
+						echo '<li class="cat-item cat-'.$id.'"><a href="'.$link.'"/>'.$name.'</a></li>';
+					};
+				}
+			?>
+		</ul>
+	</li>
+	<li >
+		<a data-toggle="collapse" href="#collapse2">
+			<span class="category-text">Genre Categories</span>
+			<img class="down_arrow" src="https://viterbiillumin.wpengine.com/wp-content/themes/Avada-Child-Theme/assets/img/down_arrow.png"/>
+		</a>
+		<ul id="collapse2" class="genre-categories collapse">
+			<?php
+				$categories = get_categories( array(
+					'orderby' => 'name',
+					'order'   => 'ASC',
+					)
+				);
+
+				foreach ($categories as $cat) {
+					if ($cat->parent) continue;
+
+					$name = $cat->name;
+					$id = $cat->term_id;
+					$link = esc_url(get_category_link( $id));
+
+					if (strpos($cat->name, 'Volume') !== false) continue;
+					if (strpos($cat->name, 'Engineering') !== false) continue;
+					echo '<li class="cat-item cat-'.$id.'"><a href="'.$link.'"/>'.$name.'</a></li>';
+				}
+			?>
+		</ul>
+	</li>
+	<li >
+		<a data-toggle="collapse" href="#collapse3">
+			<span class="category-text">Previous Volumes</span>
+			<img class="down_arrow" src="https://viterbiillumin.wpengine.com/wp-content/themes/Avada-Child-Theme/assets/img/down_arrow.png"/>
+		</a>
+		<ul id="collapse3" class="volume-categories collapse">
+			<?php
+				$categories = get_categories( array(
+					'orderby' => 'name',
+					'order'   => 'DESC',
+					'hierarchical' => '1',
+					)
+				);
+
+				foreach ($categories as $cat) {
+					// if ($cat->parent) continue;
+
+					$name = $cat->name;
+					$id = $cat->term_id;
+					$link = esc_url(get_category_link( $id));
+
+					if (strpos($name, 'Volume') === false) continue;
+					echo '<li class="cat-item cat-'.$id.'"><a href="'.$link.'"/>'.$name.'</a></li>';
+				}
+			?>
+		</ul>
+	</li>
+</ul>
+
 <?php
 
 wp_reset_postdata();
