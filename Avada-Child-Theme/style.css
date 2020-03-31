@@ -10,19 +10,22 @@ Text Domain:  Avada
 
 @font-face {
   font-family: Museo-300;
-  src: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/fonts/webfontkit/Museo-300.otf') format("opentype");
+  src: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/fonts/webfontkit/Museo-300.otf')
+    format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Museo-500;
-  src: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/fonts/webfontkit/Museo-500.otf') format("opentype");
+  src: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/fonts/webfontkit/Museo-500.otf')
+    format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Museo-700;
-  src: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/fonts/webfontkit/Museo-700.otf') format("opentype");
+  src: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/fonts/webfontkit/Museo-700.otf')
+    format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -31,7 +34,7 @@ Text Domain:  Avada
 /*FACC18 old color*/
 
 /*fixing shitty featured image sizes for slider*/
-.volume-title h1{
+.volume-title h1 {
   color: #fff !important;
 }
 
@@ -59,13 +62,13 @@ Text Domain:  Avada
 
 .issue-blurb-area {
   max-height: 500px !important;
-  background-color: rgba(255,255,255,0.2);
-  border: 2px solid rgba(255,255,255,0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.4);
   box-sizing: border-box;
   padding: 10px;
 }
 
-.issue-blurb-area .fusion-text:first-child{
+.issue-blurb-area .fusion-text:first-child {
   font-family: Roboto !important;
   font-size: 32px !important;
 }
@@ -74,16 +77,12 @@ Text Domain:  Avada
   color: #fff !important;
 }
 
-.issue-blurb-modal {
-
-}
-
 .fusion-main-menu {
-    float:none;
-    display:block;
-    clear:both;
-    background: #e0b716;
-    width: 100%;
+  float: none;
+  display: block;
+  clear: both;
+  background: #e0b716;
+  width: 100%;
 }
 .fusion-main-menu ul {
   margin-left: auto;
@@ -95,24 +94,20 @@ Text Domain:  Avada
 }
 
 .fusion-main-menu:hover {
-    overflow:hidden !important;
+  overflow: hidden !important;
 }
 .fusion-menu {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 .fusion-header {
-    padding: 0;
+  padding: 0;
 }
 
 .fusion-row {
-  margin:0;
+  margin: 0;
   max-width: none !important;
 }
 
-main {
-  margin-top: 40px;
-  padding: 0 7% !important;
-}
 main .fusion-row {
   padding: 0 20px;
 }
@@ -126,7 +121,7 @@ main .fusion-row {
 /*end Reed dev*/
 
 .text-right {
-	text-align:right;
+  text-align: right;
 }
 /*
 .fusion-header {
@@ -137,120 +132,124 @@ main .fusion-row {
 	background-repeat: no-repeat;
 }*/
 
-
-
 .fusion-header {
-    height: auto !important;
+  height: auto !important;
 }
 .top-logo-area a {
-  color:#fff;
+  color: #fff;
 }
 .fusion-logo a {
-    line-height: 28px;
+  line-height: 28px;
 }
 .fusion-main-menu > ul > li {
-    padding-right: 20px !important;
-    padding-left:20px;
+  padding-right: 20px !important;
+  padding-left: 20px;
 }
 .fusion-main-menu > ul > li > a {
-    height: 35px !important;
+  height: 35px !important;
 }
 
 .fusion-main-menu > ul > li a:hover {
-    color:#40302F;
+  color: #40302f;
 }
-.content-box-column ul, .content-box-column ol {
-    padding-left:10px;
+.content-box-column ul,
+.content-box-column ol {
+  padding-left: 10px;
 }
-.content-box-column ul li, .content-box-column ol li {
-    text-align:left;
+.content-box-column ul li,
+.content-box-column ol li {
+  text-align: left;
 }
-.colorwhite{
-    color:#fff;
+.colorwhite {
+  color: #fff;
 }
-#rev_slider_1_1_wrapper .ares .tp-bullet:hover, .ares .tp-bullet.selected {
-    background: #722424;
+#rev_slider_1_1_wrapper .ares .tp-bullet:hover,
+.ares .tp-bullet.selected {
+  background: #722424;
 }
-a.fusion-button.button-red, a.fusion-button.button-red:hover{
-	background-color: #8c0000;
-	background-image: none;
-	color: #fff;
-	border: none !important;
-	border-radius: 5px !important;
+a.fusion-button.button-red,
+a.fusion-button.button-red:hover {
+  background-color: #8c0000;
+  background-image: none;
+  color: #fff;
+  border: none !important;
+  border-radius: 5px !important;
 }
-a.fusion-button.button-red:hover{
-	color: #e2b900;
+a.fusion-button.button-red:hover {
+  color: #e2b900;
 }
-a.fusion-button.button-red small{
-    color: #999;
-    display: block;
-    font-size: 14px;
-    line-height: 1;
-    margin-top: 5px;
+a.fusion-button.button-red small {
+  color: #999;
+  display: block;
+  font-size: 14px;
+  line-height: 1;
+  margin-top: 5px;
 }
 .fusion-footer-widget-area {
-    border-top: 0px solid #e9eaee !important;
+  border-top: 0px solid #e9eaee !important;
 }
-.customLogo{
-    color: #fff;
-    font-size: 21px;
-    max-width: 34%;
-    margin-top: 20px !important;
-    margin-bottom:6px !important;
-    text-align: center;
+.customLogo {
+  color: #fff;
+  font-size: 21px;
+  max-width: 34%;
+  margin-top: 20px !important;
+  margin-bottom: 6px !important;
+  text-align: center;
 }
-.customLogo a,.customLogo a:hover{
-    color: #fff;
+.customLogo a,
+.customLogo a:hover {
+  color: #fff;
 }
-.fusion-main-menu .sub-menu{
-    border:none;
+.fusion-main-menu .sub-menu {
+  border: none;
 }
 .fusion-is-sticky .customLogo {
-    font-size: 21px;
-    line-height: 23px;
-	margin-bottom: 6px !important;
+  font-size: 21px;
+  line-height: 23px;
+  margin-bottom: 6px !important;
 }
-.module1{
-    max-width:65%;
-    margin:0px auto;
+.module1 {
+  max-width: 65%;
+  margin: 0px auto;
 }
-.ptpb0{
-    padding-top:0;
-    padding-bottom:0;
+.ptpb0 {
+  padding-top: 0;
+  padding-bottom: 0;
 }
-.module1 .fusion-flip-box .flip-box-inner-wrapper,.module1 .fusion-flip-boxes {
-    margin-bottom: 0;
+.module1 .fusion-flip-box .flip-box-inner-wrapper,
+.module1 .fusion-flip-boxes {
+  margin-bottom: 0;
 }
-.person-author-wrapper span.person-name, .person-author-wrapper span.person-title
-{
-	color:#990000;
-	text-decoration:underline;
-	cursor:pointer;
+.person-author-wrapper span.person-name,
+.person-author-wrapper span.person-title {
+  color: #990000;
+  text-decoration: underline;
+  cursor: pointer;
 }
 .top-logo-area {
-	padding-top:10px;
+  padding-top: 10px;
   padding-bottom: 5px;
 }
 .top-logo-area img {
-	max-height:80px;
-	width:auto;
+  max-height: 80px;
+  width: auto;
 }
 .fusion-is-sticky .top-logo-area img {
-	max-height:38px;
-	width:auto;
+  max-height: 38px;
+  width: auto;
 }
 .fusion-header {
   height: 160px !important;
 }
 .fusion-is-sticky {
-    height: 142px !important;
+  height: 142px !important;
 }
 
-.fusion-mobile-menu-icons {
+/* .fusion-mobile-menu-icons {
   top: auto;
   bottom: 0;
   position: absolute;
-}
+} */
 
 .illumin-logo {
   text-align: center;
@@ -311,7 +310,6 @@ article .slides {
 
   margin-left: 50% !important;
   transform: translateX(-50%);
-
 }
 
 article p {
@@ -380,18 +378,14 @@ article p {
 }
 
 /*About page*/
-.past-editors li{
+.past-editors li {
   display: inline;
 }
 .past-editors li::after {
-  content: " |";
+  content: ' |';
 }
 
 /*Main page*/
-.excerpt-container h2 {
-  font-size: 1em !important;
-}
-
 .fusion-header {
   background-image: url('https://illumin.usc.edu/wp-content/themes/Avada-Child-Theme/assets/img/banner_1920_220.png');
   background-position: center;
@@ -405,7 +399,6 @@ article p {
   padding-left: 0 !important;
 }
 
-
 .article-categories > li {
   list-style: none;
   background-color: #600500;
@@ -413,11 +406,10 @@ article p {
   padding-left: 10px;
   padding-bottom: 0px;
   margin: 15px 0;
-
 }
 /* 'Engineering Categories', 'Genre Categories' */
-.article-categories > li > a{
-  color: #FFF;
+.article-categories > li > a {
+  color: #fff;
   font-family: 'Museo-500', 'Roboto', 'Verdana', sans-serif;
   font-size: 24px;
   padding-right: auto;
@@ -456,20 +448,73 @@ article p {
 /*phones*/
 @media (max-width: 768px) {
   /*Header*/
-	.fusion-logo a {
-		font-size: 16px;
-		line-height: 22px;
-	}
-
-  .illumin-logo {
-    float: left;
+  .fusion-logo a {
+    font-size: 16px;
+    line-height: 22px;
   }
+
+  #illumin-logo-small {
+    display: none;
+  }
+  .fusion-header {
+    height: 120px !important;
+  }
+
+  .usc-logo,
+  .viterbi-logo {
+    display: none;
+  }
+
+  .fusion-header {
+    padding: 0 !important;
+  }
+
+  .fusion-mobile-menu-icons {
+    position: absolute;
+    top: 0px;
+    height: 120px;
+  }
+
+  .fusion-mobile-nav-holder {
+    position: absolute;
+    width: 100vw;
+    top: 120px;
+    padding-top: 0 !important;
+    margin: 0 !important;
+  }
+
+  #header-search {
+    display: none;
+  }
+
+  .gallery1 .slides h2 {
+    font-size: 1em !important;
+  }
+  .gallery1 .slide-excerpt p {
+    font-size: 0.8em !important;
+  }
+
+  ul#mobile-menu-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  ul#mobile-menu-main > li {
+    flex: 1;
+  }
+
+  ul#mobile-menu-main > li > a {
+    text-align: center;
+    padding: 0 15px;
+  }
+
   /*Single page*/
 }
 
 /*tablets*/
 @media screen and (min-width: 768px) {
-  .top-logo-area img{
+  .top-logo-area img {
     max-height: 50px;
   }
   .article-categories ul {
@@ -484,27 +529,26 @@ article p {
   /*Header*/
 
   .fusion-menu {
-
-      text-align:center
+    text-align: center;
   }
   .fusion-menu li {
-      display:inline-block;
-      float:none;
-      margin-left: 0;
+    display: inline-block;
+    float: none;
+    margin-left: 0;
   }
   .fusion-menu li li {
-      display:block;
-      text-align:left
+    display: block;
+    text-align: left;
   }
-  .fusion-main-menu > ul > li > a{
-      font-family: 'Museo-500' !important;
-      font-size: 20px !important;
+  .fusion-main-menu > ul > li > a {
+    font-family: 'Museo-500' !important;
+    font-size: 20px !important;
   }
   .fusion-menu a {
     text-transform: uppercase;
   }
   .fusion-is-sticky .fusion-main-menu > ul {
-    margin-top:0 !important;
+    margin-top: 0 !important;
   }
 
   .fusion-main-menu {
@@ -525,6 +569,14 @@ article p {
     top: 0;
   }
 
+  .slide-excerpt h2 {
+    font-size: 1em !important;
+  }
+
+  .slide-excerpt p {
+    font-size: 0.8em !important;
+  }
+
   .fusion-header-sticky-height {
     top: 0;
     height: 0;
@@ -535,9 +587,7 @@ article p {
   .fusion-header.shrink .top-logo-area {
     display: none;
   }
-  .fusion
-
-  .fusion-header.shrink .fusion-main-menu {
+  .fusion .fusion-header.shrink .fusion-main-menu {
     margin: 0;
   }
 
@@ -545,7 +595,16 @@ article p {
 }
 
 @media (min-width: 992px) {
-  .top-logo-area img{
+  main {
+    margin-top: 40px;
+    padding: 0 15% !important;
+  }
+
+  body.single-post main {
+    padding: 0 25% !important;
+  }
+
+  .top-logo-area img {
     max-height: 75px;
   }
   .slides h2 {
@@ -561,8 +620,12 @@ article p {
     column-gap: 10px;
   }
 
-  .excerpt-container h2 {
-    font-size: 1.7em !important;
+  .slide-excerpt h2 {
+    font-size: 1.4em !important;
+  }
+
+  .slide-excerpt p {
+    font-size: 1em !important;
   }
   /*Header*/
 
@@ -577,16 +640,16 @@ article p {
     margin: 0;
   }
   .customLogo {
-     max-width: 75%;
+    max-width: 75%;
   }
   .customLogo br {
-      display: none;
+    display: none;
   }
-  .module1{
-      max-width:95%;
-      margin:0px auto;
-      padding:0 !important;
-      background:none !important;
+  .module1 {
+    max-width: 95%;
+    margin: 0px auto;
+    padding: 0 !important;
+    background: none !important;
   }
   /*Single page*/
 }
