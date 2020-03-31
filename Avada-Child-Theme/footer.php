@@ -193,8 +193,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 						});
 					});
 
-					$("#menu-item-2415 span").text("Articles");
-
 				});
 			});
 		</script>
