@@ -163,6 +163,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		<script>
 			jQuery(function($){
+				// shrinking header jquery
 				$(document).on("scroll", function() {
 					if ($(document).scrollTop() > 50) {
 						$(".fusion-header").addClass("shrink");
@@ -184,7 +185,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 					}
 				});
 
+				// functions to run on window load
 				$(window).on("load", function() {
+					// fix height of gallery slides
 					$(".main-gallery .slides").each(function() {
 						const parentHeight = $(this).css("height");
 						$(this).children("li").each(function() {
